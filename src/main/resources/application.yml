@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: off
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/"
+    username: postgres
+    password: postgres
